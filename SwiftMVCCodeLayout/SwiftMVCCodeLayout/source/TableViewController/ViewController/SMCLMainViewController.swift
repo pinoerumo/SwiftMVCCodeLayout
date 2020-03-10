@@ -10,8 +10,6 @@ class SMCLTableViewController: UIViewController {
     
     override func loadView() {
         self.view = smclTableView
-        smclTableView.setLayout()
-        smclTableView.setNeedsLayout()
         smclTableView.delegate = self
     }
     

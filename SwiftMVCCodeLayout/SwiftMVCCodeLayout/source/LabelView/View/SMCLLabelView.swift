@@ -12,6 +12,17 @@ class SMCLLabelView: UIView {
     /**デバイスのかな情報を表示するラベル*/
     var displayLabel = UILabel()
     
+    override init(frame: CGRect) {
+      super.init(frame: frame)
+      setLayout()
+    }
+    
+    
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+      fatalError("init(coder:) has not been implemented")
+    }
+    
     /// レイアウトを設定します
     func setLayout() {
         setBackView()

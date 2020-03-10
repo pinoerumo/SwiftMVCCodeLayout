@@ -8,8 +8,6 @@ class SMCLLabelViewController: UIViewController {
     
     override func loadView() {
         self.view = labelView
-        labelView.setLayout()
-        labelView.setNeedsLayout()
         labelView.delegate = self
     }
     
