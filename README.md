@@ -1,6 +1,8 @@
 # SwiftMVCCodeLayout
 
 iOSアプリのMVCアーキテクチャにおけるコードレイアウト考察のためのリポジトリです。
+解説はこちらの記事
+[SwiftのMVCアーキテクチャにおけるコードレイアウトのベストプラクティスを模索&解説してみた](https://qiita.com/pinoerumo/items/cde8d0781799b53a3ebd)
 IBAnimatableFrameworkを使用したところ、Xibだと読み込み時に動作が安定しないのでコードレイアウトでレイアウトを組むために作成したプロジェクトです。
 
 ## アプリ要件
